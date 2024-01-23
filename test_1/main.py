@@ -2,7 +2,7 @@ import csv
 import os
 import re
 import time
-import winsound
+# import winsound
 
 import requests as requests
 from bs4 import BeautifulSoup
@@ -305,7 +305,7 @@ def main():
 
             print(product_info)
             write_to_csv(product_info, "a.csv")
-            winsound.Beep(1000, 1)
+            # winsound.Beep(1000, 1)
 
 
 # try:
